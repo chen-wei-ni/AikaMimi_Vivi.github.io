@@ -1,6 +1,6 @@
 ScrollReveal().reveal('.scroll__event', {delay: 500 ,opacity: 0.05 ,duration: 2000})
 ScrollReveal().reveal('.ex-title', {delay: 500 ,opacity: 0.05})
-ScrollReveal().reveal('.slide__wrap', {delay: 1000 ,origin : 'right',reset: true, desktop: true, opacity: 0.05, duration: 2000})
+
 
 
 //SWIPER
