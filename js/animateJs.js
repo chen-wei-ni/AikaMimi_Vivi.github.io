@@ -2,7 +2,6 @@ ScrollReveal().reveal('.scroll__event', {delay: 500 ,opacity: 0.05 ,duration: 20
 ScrollReveal().reveal('.ex-title', {delay: 500 ,opacity: 0.05})
 
 
-
 //SWIPER
 
     const swiper = new Swiper('.swiper', {
