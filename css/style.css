@@ -276,8 +276,7 @@ section .part-section ul li::before {
 }
 
 .slide__wrap .slide_list li span {
-  color: #000;
-  opacity: 0.05;
+  color: #74747410;
 }
 
 .related__work {

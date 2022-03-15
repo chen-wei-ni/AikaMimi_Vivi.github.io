@@ -61,9 +61,11 @@
 @keyframes bg_animate {
     15% {
         opacity: 0.8;
+        filter: hue-rotate(3.142rad);
     }
     25% {
         opacity: 1;
+        filter: hue-rotate(-47deg) brightness(125%);
     }
     30% {
         opacity: 0.7;
