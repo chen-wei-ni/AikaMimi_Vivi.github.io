@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Source+Sans+Pro:wght@200&display=swap')
+@import url('font.css')
 @import url(animation.css);
 @import url(boxicons.min.css);
 
@@ -232,16 +232,21 @@ section
         a
             width: 100px
     .personal__pic
-        top: 45%
+        top: 50%
         p
-            width: 360px
+            width: 350px
     section
         margin: 12% 0 0 8%
 @media screen and ( max-width: 768px  )
     .personal__pic
-        top: 48%
+        position: inherit
+        margin-top: 5rem
+        overflow: hidden
         p
-            width: 300px
+            width: 60%
+            margin: 0 auto
+    section
+        margin: 2% 0 0 10%
 @media screen and ( max-width: 540px  )
     .logo
         padding: 1.2rem
@@ -255,14 +260,8 @@ section
             font-size: 1rem
             margin: 0 .4rem
     section
-        margin: 12% 0 0 5%
-        .part-section ul
-            padding-left: 1rem
-    .personal__pic
-        top: 53%
-        right: 3%
-        p
-            width: 250px
+        margin: 0
+        justify-content: center
 @media screen and ( max-width: 414px  )
     .logo
         padding: .9rem
@@ -272,17 +271,8 @@ section
         .background
             background: url(../images/bg_d_mb.png) top center no-repeat
             background-size: cover
-
-    .personal__pic
-        position: inherit
-        margin-top: 2rem
-        overflow: hidden
-        p
-            width: 100%
-            padding: 2.5rem
-    section
-        margin: 0
-        justify-content: center
     .swiper
         padding: 0 40px !important
+    .personal__pic
+        margin-top: 2.5rem
 
