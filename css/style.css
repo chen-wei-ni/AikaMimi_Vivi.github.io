@@ -1,7 +1,6 @@
 @charset "UTF-8";
 @import url("font.css");
 @import url(animation.css);
-@import url(boxicons.min.css);
 ::-moz-selection {
   background: #5f5f5f;
   color: #fff;
@@ -17,8 +16,6 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   list-style: none;
-  -webkit-transition: all .3s;
-  transition: all .3s;
 }
 
 img {
@@ -318,39 +315,57 @@ section .part-section ul li::before {
   margin: 0 1rem;
 }
 
-.footer .sns ul li:nth-child(1):hover i {
+.footer .sns ul li:nth-child(1):hover span {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
   -webkit-box-shadow: 0 0 10px 10px #bceaff;
           box-shadow: 0 0 10px 10px #bceaff;
   color: #4696ff;
   border: none;
+  -webkit-transition: .1s;
+  transition: .1s;
 }
 
-.footer .sns ul li:nth-child(2):hover i {
+.footer .sns ul li:nth-child(2):hover span {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
   -webkit-box-shadow: -7px -7px 15px -5px #2c0092,  7px 7px 10px -5px #eb7d00, 0px 0px 15px 2px #ce0558;
           box-shadow: -7px -7px 15px -5px #2c0092,  7px 7px 10px -5px #eb7d00, 0px 0px 15px 2px #ce0558;
   color: #6c0586;
   border: none;
+  -webkit-transition: .1s;
+  transition: .1s;
 }
 
-.footer .sns ul li:nth-child(3):hover i {
+.footer .sns ul li:nth-child(3):hover span {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
   -webkit-box-shadow: 0 0 10px 10px #ff958d;
           box-shadow: 0 0 10px 10px #ff958d;
   color: #fd3b3b;
   border: none;
+  -webkit-transition: .1s;
+  transition: .1s;
 }
 
-.footer .sns ul li a i {
-  font-size: 1.5rem;
+.footer .sns ul li a span {
+  font-size: 1.2rem;
   color: #a5a5a5;
   border: solid 1px #d4d4d4;
-  padding: 1.5rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .footer p {
