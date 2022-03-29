@@ -3,13 +3,13 @@
     justify-content: flex-end;
     margin: -5rem 0 2rem 0 ;
     }
-.swiper {
-    width:100%;
+  .swiper_pos .swiper {
+    width:  100%;
     height: 100%;    
     margin: 0;
     z-index: 10;
   }
-.swiper-slide {
+.swiper_pos .swiper-slide {
   overflow: hidden;
   text-align: center;
   font-size: 18px;
@@ -29,8 +29,7 @@
   align-items: center;
   
 }
-
-.swiper-slide img {
+.swiper_pos .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -73,8 +72,80 @@
   transform: scale(1.08);
   animation: flash .3s both;
 }
+
+/*------SWIPER2---------*/
+
+.bride_photo {
+  margin-top: 15rem;
+}
+.bride_photo .swiper {
+  width: 100%;
+  height: 100%;
+}
+.bride_photo .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.bride_photo .bride-work {
+  padding: 3rem 0;
+}
+.bride_photo :nth-child(1).bride-work {
+  background: url('../images/bride-bg-1.jpg') top center no-repeat;
+  background-size: cover;
+}
+.bride_photo :nth-child(2).bride-work {
+  background: url('../images/bride-bg-2.jpg') top center no-repeat;
+  background-size: cover;
+}
+.bride_photo :nth-child(3).bride-work {
+  background: url('../images/bride-bg-3.jpg') center center no-repeat;
+  background-size: cover;
+}
+.bride_photo :nth-child(4).bride-work {
+  background: url('../images/bride-bg-4.jpg') center center no-repeat;
+  background-size: cover;
+}
+.bride_photo :nth-child(5).bride-work {
+  background: url('../images/bride-bg-5.jpg') center center no-repeat;
+  background-size: cover;
+}
+.bride_photo :nth-child(6).bride-work {
+  background: url('../images/bride-bg-6.jpg') center center no-repeat;
+  background-size: cover;
+}
+.bride_photo .swiper-slide img {
+  display: block;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media screen  and (max-width: 414px) {
   .swiper-button-prev, .swiper-button-next {
     opacity: 0;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .bride_photo .swiper-slide img {
+    width: 100%;
+  }
+  .bride_photo .bride-work {
+    padding: 1rem ;
   }
 }

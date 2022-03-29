@@ -290,6 +290,23 @@ section .part-section ul li::before {
   letter-spacing: 2px;
 }
 
+.related__work p {
+  position: absolute;
+  left: 30%;
+  bottom: 7.8rem;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  color: #2e2e2e;
+}
+
+.bride_makeup span {
+  bottom: 2rem;
+}
+
+.bride_makeup p {
+  bottom: 1.8rem;
+}
+
 /*---footer---*/
 .footer {
   margin: 25rem 0 26rem 0;
@@ -385,6 +402,9 @@ section .part-section ul li::before {
             justify-content: space-between;
     margin: 12% 0 0 12%;
   }
+  .related__work p {
+    left: 35%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -400,6 +420,9 @@ section .part-section ul li::before {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin: 12% 0 0 12%;
+  }
+  .related__work p {
+    left: 40%;
   }
 }
 
@@ -419,6 +442,9 @@ section .part-section ul li::before {
   section {
     margin: 12% 0 0 8%;
   }
+  .related__work p {
+    left: 45%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -433,6 +459,16 @@ section .part-section ul li::before {
   }
   section {
     margin: 2% 0 0 10%;
+  }
+  .related__work p {
+    left: 20%;
+    bottom: 6rem;
+  }
+  .bride_makeup span {
+    bottom: 3rem;
+  }
+  .bride_makeup p {
+    bottom: 1rem;
   }
 }
 
