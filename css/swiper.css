@@ -65,7 +65,7 @@
 }
 .model-p {
   transition: .5s;
-  cursor: pointer;
+  /*cursor: pointer;*/
 }
 .model-p:hover img{
   transition: .5s;
@@ -134,7 +134,13 @@
   height: 100%;
   object-fit: cover;
 }
+.bride_photo .swiper-button-next {
+  display: none;
+}
 
+.bride_photo .swiper-button-prev {
+  display: none;
+}
 @media screen  and (max-width: 414px) {
   .swiper-button-prev, .swiper-button-next {
     opacity: 0;

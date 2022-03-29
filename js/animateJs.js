@@ -57,11 +57,23 @@ var swiper2 = new Swiper(".mySwiper-2", {
     autoplay: {
         delay: 3000,
         disableOnInteraction: false,
+        reverseDirection: false,
+        waitForTransition: true,
+        pauseOnMouseEnter: true,
     },
     scrollbar: {
         el: ".swiper-scrollbar",
     },
 
     });
+
+/*---Mousemove ---*/
+
+$(window).mousemove(function(evt){
+    $(".mouseSymbol").css("left",evt.pageX+'px').css("top",evt.pageY+'px')
+})
+
+
+
 
 
