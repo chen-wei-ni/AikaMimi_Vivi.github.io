@@ -48,10 +48,10 @@ const swiper = new Swiper('.swiper', {
 var swiper2 = new Swiper(".mySwiper-2", {
     slidesPerView: 1,
     centeredSlides: true,
-    effect: 'fade',
     slidesPerGroupSkip: 1,
     grabCursor: true,
-    spaceBetween: 10,
+    spaceBetween: 0,
+    effect: 'cube',
     keyboard: {
         enabled: true,
     },
@@ -60,12 +60,11 @@ var swiper2 = new Swiper(".mySwiper-2", {
         disableOnInteraction: false,
         reverseDirection: false,
         waitForTransition: true,
-        pauseOnMouseEnter: true,
+        
     },
     scrollbar: {
         el: ".swiper-scrollbar",
     },
-
     });
 
 /*---Mousemove ---*/
