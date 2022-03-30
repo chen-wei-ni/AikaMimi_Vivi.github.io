@@ -48,6 +48,7 @@ const swiper = new Swiper('.swiper', {
 var swiper2 = new Swiper(".mySwiper-2", {
     slidesPerView: 1,
     centeredSlides: true,
+    effect: 'flip',
     slidesPerGroupSkip: 1,
     grabCursor: true,
     spaceBetween: 10,
@@ -55,7 +56,7 @@ var swiper2 = new Swiper(".mySwiper-2", {
         enabled: true,
     },
     autoplay: {
-        delay: 3000,
+        delay: 3500,
         disableOnInteraction: false,
         reverseDirection: false,
         waitForTransition: true,
