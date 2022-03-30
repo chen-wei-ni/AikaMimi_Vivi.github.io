@@ -48,7 +48,7 @@ const swiper = new Swiper('.swiper', {
 var swiper2 = new Swiper(".mySwiper-2", {
     slidesPerView: 1,
     centeredSlides: true,
-    effect: 'flip',
+    effect: 'cards',
     slidesPerGroupSkip: 1,
     grabCursor: true,
     spaceBetween: 10,
