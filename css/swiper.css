@@ -112,20 +112,24 @@
   background: url('../images/bride-bg-2.jpg') top center no-repeat;
   background-size: cover;
 }
-.bride_photo :nth-child(3).bride-work {
+.bride_photo :nth-child(4).bride-work {
   background: url('../images/bride-bg-3.jpg') center center no-repeat;
   background-size: cover;
 }
-.bride_photo :nth-child(4).bride-work {
+.bride_photo :nth-child(5).bride-work {
   background: url('../images/bride-bg-4.jpg') center center no-repeat;
   background-size: cover;
 }
-.bride_photo :nth-child(5).bride-work {
+.bride_photo :nth-child(6).bride-work {
   background: url('../images/bride-bg-5.jpg') center center no-repeat;
   background-size: cover;
 }
-.bride_photo :nth-child(6).bride-work {
+.bride_photo :nth-child(7).bride-work {
   background: url('../images/bride-bg-6.jpg') center center no-repeat;
+  background-size: cover;
+}
+.bride_photo :nth-child(3).bride-work {
+  background: url('../images/bride-bg-7.jpg') center center no-repeat;
   background-size: cover;
 }
 .bride_photo .swiper-slide img {
