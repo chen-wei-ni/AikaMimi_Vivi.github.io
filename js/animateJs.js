@@ -51,16 +51,11 @@ var swiper2 = new Swiper(".mySwiper-2", {
     slidesPerGroupSkip: 1,
     grabCursor: true,
     spaceBetween: 0,
-    effect: 'cube',
-    keyboard: {
-        enabled: true,
-    },
     autoplay: {
         delay: 3500,
         disableOnInteraction: false,
         reverseDirection: false,
         waitForTransition: true,
-        
     },
     scrollbar: {
         el: ".swiper-scrollbar",
