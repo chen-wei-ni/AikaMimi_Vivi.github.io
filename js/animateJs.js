@@ -46,12 +46,11 @@ var swiper2 = new Swiper(".mySwiper-2", {
     slidesPerView: 1,
     centeredSlides: true,
     slidesPerGroupSkip: 1,
-    grabCursor: true,
     spaceBetween: 0,
-    effect: 'cube',
-    cubeEffect: {
-    slideShadows: false,
-    },
+    clickable: true,
+    mousewheel: {
+        invert: false,
+      },
     autoplay: {
         delay: 3500,
         disableOnInteraction: false,

@@ -139,11 +139,11 @@
   object-fit: cover;
 }
 .bride_photo .swiper-button-next {
-
+  display: none;
 }
 
 .bride_photo .swiper-button-prev {
-
+  display: none;
 }
 @media screen  and (max-width: 414px) {
   .swiper-button-prev, .swiper-button-next {
