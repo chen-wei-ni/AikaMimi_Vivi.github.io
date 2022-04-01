@@ -39,7 +39,6 @@ const swiper = new Swiper('.swiper', {
             spaceBetween: 0
             
         }
-        
     }
     })
 
@@ -62,6 +61,10 @@ var swiper2 = new Swiper(".mySwiper-2", {
     scrollbar: {
         el: ".swiper-scrollbar",
     },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
     });
 
 /*---Mousemove ---*/
