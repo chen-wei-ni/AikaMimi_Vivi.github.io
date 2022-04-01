@@ -50,12 +50,13 @@ var swiper2 = new Swiper(".mySwiper-2", {
     clickable: true,
     mousewheel: {
         invert: false,
-      },
+    },
     autoplay: {
         delay: 3500,
         disableOnInteraction: false,
         reverseDirection: false,
         waitForTransition: true,
+        pauseOnMouseEnter: true,
     },
     scrollbar: {
         el: ".swiper-scrollbar",
