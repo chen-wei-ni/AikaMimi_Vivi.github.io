@@ -335,17 +335,6 @@ section .part-section ul li::before {
 .footer .sns ul li:nth-child(1):hover span {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
-  -webkit-box-shadow: 0 0 10px 10px #bceaff;
-          box-shadow: 0 0 10px 10px #bceaff;
-  color: #4696ff;
-  border: none;
-  -webkit-transition: .1s;
-  transition: .1s;
-}
-
-.footer .sns ul li:nth-child(2):hover span {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
   -webkit-box-shadow: -7px -7px 15px -5px #2c0092,  7px 7px 10px -5px #eb7d00, 0px 0px 15px 2px #ce0558;
           box-shadow: -7px -7px 15px -5px #2c0092,  7px 7px 10px -5px #eb7d00, 0px 0px 15px 2px #ce0558;
   color: #6c0586;
@@ -354,7 +343,7 @@ section .part-section ul li::before {
   transition: .1s;
 }
 
-.footer .sns ul li:nth-child(3):hover span {
+.footer .sns ul li:nth-child(2):hover span {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
   -webkit-box-shadow: 0 0 10px 10px #ff958d;
