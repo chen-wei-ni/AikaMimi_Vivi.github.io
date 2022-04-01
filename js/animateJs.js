@@ -45,7 +45,6 @@ const swiper = new Swiper('.swiper', {
 var swiper2 = new Swiper(".mySwiper-2", {
     slidesPerView: 1,
     centeredSlides: true,
-    slidesPerGroupSkip: 1,
     spaceBetween: 0,
     clickable: true,
     mousewheel: {
